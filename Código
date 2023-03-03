@@ -1,0 +1,17 @@
+package ejercicio_14;
+import java.util.Scanner;
+public class Ejercicio_14 {
+
+    public static void main(String[] args) {
+        System.out.println("numero:");
+        Scanner teclado = new Scanner(System.in);
+        double numero = teclado.nextDouble();
+        
+        double cuadrado = Math.pow(numero,2);
+        double cubo = Math.pow(numero,3);
+        System.out.println("El numero es: " + numero);
+        System.out.println("El cuadrado del numero es: " + cuadrado);
+        System.out.println("El cubo del numero es: " + cubo);
+    }
+    
+}
